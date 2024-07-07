@@ -21,37 +21,34 @@ Consider a hypothetical scenario where a flat plate is subjected to a uniform fl
 
 The mathematical description involves the incompressible Navier-Stokes equations, which, under carefully defined assumptions, transform into a specialized system recognized as the Blasius equations:
 
-\[
-\frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = - \frac{1}{\rho}\frac{\partial P}{\partial x} + \nu \left(\frac{\partial ^2 u}{\partial x^2} + \frac{\partial ^2 u}{\partial y^2}\right)
-\]
 
-\[
-\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial x} + v\frac{\partial v}{\partial y} = - \frac{1}{\rho}\frac{\partial P}{\partial y} + \nu \left(\frac{\partial ^2 v}{\partial x^2} + \frac{\partial ^2 v}{\partial y^2}\right)
-\]
+$\frac{\partial u}{\partial t} + u\frac{\partial u}{\partial x} + v\frac{\partial u}{\partial y} = - \frac{1}{\rho}\frac{\partial P}{\partial x} + \nu \left(\frac{\partial ^2 u}{\partial x^2} + \frac{\partial ^2 u}{\partial y^2}\right)$
 
-\[
-\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0
-\]
+
+$\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial x} + v\frac{\partial v}{\partial y} = - \frac{1}{\rho}\frac{\partial P}{\partial y} + \nu \left(\frac{\partial ^2 v}{\partial x^2} + \frac{\partial ^2 v}{\partial y^2}\right)$
+
+
+$\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0$
 
 ### Boundary Conditions
 
-\[
-BC =
+
+$BC =
 \begin{cases}
   u(x=0,y) = U_e\\
   u(x,y=0) = 0\\
   v(x,y=0) = 0\\
   u(y \rightarrow \infty) = U_e
 \end{cases}
-\]
+$
 
 ### Given Values
 
 For this practical problem, the following values are provided for the length of the plate, fluid density, and viscosity:
 
-\[
+$
 L = 1m \quad \rho = 1.2 \frac{kg}{m^3} \quad \mu = 1.7 \times 10^{-7} Pa.s
-\]
+$
 
 ### Schematic
 
