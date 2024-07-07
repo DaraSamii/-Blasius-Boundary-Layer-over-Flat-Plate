@@ -44,6 +44,6 @@ $L = 1m \quad \rho = 1.2 \frac{kg}{m^3} \quad \mu = 1.7 \times 10^{-7} Pa.s$
 
 --- 
 # File Descption
-`Matlab` contains all codes necessary for solivg the problem
-`Plots` contains all generated results
-`LaTeX Source` contatin source of report in latex
+* `Matlab` contains all codes necessary for solivg the problem
+* `Plots` contains all generated results
+* `LaTeX Source` contatin source of report in latex
