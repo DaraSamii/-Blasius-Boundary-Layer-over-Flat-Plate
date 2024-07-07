@@ -30,26 +30,20 @@ $\frac{\partial v}{\partial t} + u\frac{\partial v}{\partial x} + v\frac{\partia
 
 $\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0$
 
-### Boundary Conditions
-
-
-$BC =
-\begin{cases}
-  u(x=0,y) = U_e\\
-  u(x,y=0) = 0\\
-  v(x,y=0) = 0\\
-  u(y \rightarrow \infty) = U_e
-\end{cases}
-$
-
 ### Given Values
 
 For this practical problem, the following values are provided for the length of the plate, fluid density, and viscosity:
 
-$
-L = 1m \quad \rho = 1.2 \frac{kg}{m^3} \quad \mu = 1.7 \times 10^{-7} Pa.s
-$
+$L = 1m \quad \rho = 1.2 \frac{kg}{m^3} \quad \mu = 1.7 \times 10^{-7} Pa.s$
 
 ### Schematic
 
-![Schematic of Blasius plate problem](plots/schematic.svg)
+<div align="center">
+	<img width="150%" src="plots/schematic.svg">
+</div>
+
+--- 
+# File Descption
+`Matlab` contains all codes necessary for solivg the problem
+`Plots` contains all generated results
+`LaTeX Source` contatin source of report in latex
