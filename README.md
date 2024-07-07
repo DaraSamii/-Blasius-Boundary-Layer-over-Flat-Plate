@@ -13,7 +13,7 @@
 ---
 ## Project Overview
 
-This project involves the numerical solution of the Blasius Boundary Layer Equation over a flat plate. The Blasius equation is a fundamental solution in fluid mechanics that describes the
+This project involves the `Matlab` numerical solution of the Blasius Boundary Layer Equation over a flat plate.
 
 ### Problem Description
 
